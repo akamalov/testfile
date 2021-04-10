@@ -1,0 +1,71 @@
+{
+"egress_nat_ranges":
+[
+  {
+    "description": "blahnet-public-acl",
+    "metadata": {
+      "broadcast": "192.168.1.191",
+      "cidr": "192.168.1.128/26",
+      "ip": "192.168.1.128",
+      "ip_range": {
+        "start": "192.168.1.128",
+        "end": "192.168.1.191"
+      },
+      "netmask": "255.255.255.192",
+      "network": "192.168.1.128",
+      "prefix": "26",
+      "size": "64"
+    }
+  },
+  {
+    "description": "blahnet-public-acl",
+    "metadata": {
+      "broadcast": "192.168.160.127",
+      "cidr": "192.168.160.0/25",
+      "ip": "192.168.160.0",
+      "ip_range": {
+        "start": "192.168.160.0",
+        "end": "192.168.160.127"
+      },
+      "netmask": "255.255.255.128",
+      "network": "192.168.160.0",
+      "prefix": "25",
+      "size": "128"
+    }
+  }
+ ],
+ "express_routes": [
+    {
+      "description": "blah2-PUB-07-01",
+      "metadata": {
+        "broadcast": "192.168.124.143",
+        "cidr": "192.168.124.128/28",
+        "ip": "192.168.124.128",
+        "ip_range": {
+          "start": "192.168.124.128",
+          "end": "192.168.124.143"
+        },
+        "netmask": "255.255.255.240",
+        "network": "192.168.124.128",
+        "prefix": "28",
+        "size": "16"
+      }
+    },
+    {
+      "description": "blah2-PUB-07-02",
+      "metadata": {
+        "broadcast": "192.168.124.143",
+        "cidr": "192.168.124.128/28",
+        "ip": "192.168.124.128",
+        "ip_range": {
+          "start": "192.168.124.128",
+          "end": "192.168.124.143"
+        },
+        "netmask": "255.255.255.240",
+        "network": "192.168.124.128",
+        "prefix": "28",
+        "size": "16"
+      }
+    }
+  ]
+}
